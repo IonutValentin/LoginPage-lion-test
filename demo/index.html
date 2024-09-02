@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #f0faff;
+      font-family: Helvetica;
+    }
+  </style>
+</head>
+<body>
+  <div id="demo"></div>
+
+  <script type="module">
+    import { html, render } from 'lit';
+    import '../dist/src/login-foo.js';
+
+    const header = 'Hello owc World!';
+    render(
+      html`
+        <login-foo .header=${header}>
+          some light-dom
+        </login-foo>
+      `,
+      document.querySelector('#demo')
+    );
+  </script>
+</body>
+</html>
