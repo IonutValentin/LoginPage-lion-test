@@ -1,0 +1,1 @@
+{"version":3,"file":"login-foo.js","sourceRoot":"","sources":["../../src/login-foo.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,MAAM,eAAe,CAAC;AAEzC,MAAM,CAAC,cAAc,CAAC,MAAM,CAAC,WAAW,EAAE,QAAQ,CAAC,CAAC","sourcesContent":["import { LoginFoo } from './LoginFoo.js';\n\nwindow.customElements.define('login-foo', LoginFoo);\n"]}

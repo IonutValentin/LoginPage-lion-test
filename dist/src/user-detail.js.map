@@ -1,0 +1,1 @@
+{"version":3,"file":"user-detail.js","sourceRoot":"","sources":["../../src/user-detail.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,UAAU,EAAE,MAAM,iBAAiB,CAAC;AAE7C,MAAM,CAAC,cAAc,CAAC,MAAM,CAAC,aAAa,EAAE,UAAU,CAAC,CAAC","sourcesContent":["import { UserDetail } from './UserDetail.js';\r\n\r\nwindow.customElements.define('user-detail', UserDetail);"]}
